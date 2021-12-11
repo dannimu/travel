@@ -2,7 +2,7 @@
   <div v-scroll="onScroll" id="aaaaa">
     <div class="big">
       <div>
-        <v-carousel class="carousel" height="320">
+        <v-carousel class="carousel" height="500">
           <v-carousel-item
             v-for="(item, i) in items"
             :key="i"
@@ -108,93 +108,93 @@ export default {
         top: 0,
       items: [
         {
-          src: "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
+          src: "https://img.tukuppt.com/ad_preview/00/09/14/5c99116a2ffde.jpg!/fw/780",
         },
         {
-          src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+          src: "https://p6-tt.byteimg.com/origin/pgc-image/6098ac8cc5df4267ab97b41dde97a507?from=pc",
         },
         {
-          src: "https://cdn.vuetifyjs.com/images/carousel/bird.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/03/28/4F5o5JJYIt.jpg!/fh/350",
         },
         {
-          src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/24/42/dhaxjvAx0W.jpg!/fh/350",
         },
       ],
       // 城市列表
       citie: [
         {
           name: "美国",
-          src: "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/03/40/oJRZjOBnF7.jpg!/fh/350",
         },
         {
           name: "澳大利亚",
-          src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/06/63/5fm2Mvjfwz.jpg!/fh/350",
         },
         {
           name: "冰岛",
-          src: "https://cdn.vuetifyjs.com/images/carousel/bird.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/07/13/gGSzfrlawB.jpg!/fh/350",
         },
         {
           name: "西藏",
-          src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/09/75/foiWcKgzx6.jpg!/fh/350",
         },
         {
           name: "上海",
-          src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/17/72/zp574kYgHx.jpg!/fh/350",
         },
         {
           name: "新疆",
-          src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/11/53/BMbv2RasOn.jpg!/fh/350",
         },
       ],
       //小图片框
       Photo: [
         {
           introduce: "自然",
-          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          src: "https://img.tukuppt.com/bg_grid/01/15/74/SWFW3TUWlZ.jpg!/fh/350",
         },
         {
           introduce: "城市",
-          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350",
         },
         {
           introduce: "运动",
-          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/03/83/l3yGLYQN2I.jpg!/fh/350",
         },
         {
           introduce: "人物",
-          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/05/12/P9THwGEEQQ.jpg!/fh/350",
         },
         {
           introduce: "签约摄影师",
-          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/23/65/Sd0MUmMfX2.jpg!/fh/350",
         },
       ],
       //最后6个图片
       last: [
         {
           name: "12323",
-          src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/03/75/EPDdekchPx.jpg!/fh/350",
         },
         {
           name: "2355",
-          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/10/10/goqQlrldHA.jpg!/fh/350",
         },
         {
           name: "1239",
-          src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/10/14/z3DFPJ6tkg.jpg!/fh/350",
         },
         {
           name: "47",
-          src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+          src: "https://img.tukuppt.com/bg_grid/01/16/19/PsiojVxcp6.jpg!/fh/350",
         },
         {
           name: "1234",
-          src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/18/30/DfGNfsaCNf.jpg!/fh/350",
         },
         {
           name: "hdjj",
-          src: "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+          src: "https://img.tukuppt.com/bg_grid/00/10/99/ZLQKtK4zmS.jpg!/fh/350",
         },
       ],
     };

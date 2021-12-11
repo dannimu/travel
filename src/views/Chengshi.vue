@@ -37,3 +37,9 @@ img{
     width: 100%;
 }
 </style>
+<script>
+
+export default {
+  
+}
+</script>

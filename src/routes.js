@@ -31,7 +31,25 @@ export default [
             },
             {
                 path: '/biaoqian',
-                component: () => import('./views/Biaoqian')
+                component: () => import('./views/Biaoqian'),
+                children: [
+                    {
+                        path: '',
+                        component: () => import('./views/BiaoqianIndex')
+                    },
+                    {
+                        path: 'ticai',
+                        component: () => import('./views/Ticai')
+                    },
+                    {
+                        path: 'fengge',
+                        component: () => import('./views/Fengge')
+                    },
+                    {
+                        path: 'shebei',
+                        component: () => import('./views/Shebei')
+                    },
+                ]
             },
         ]
     },

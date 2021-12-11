@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="menu">
-      <router-link to="/"></router-link>
       <router-link to="/tansuo/quanbu">全部</router-link>
       <router-link to="/tansuo/ziran">自然</router-link>
       <router-link to="/tansuo/chengshi">城市</router-link>
