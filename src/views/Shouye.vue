@@ -27,25 +27,21 @@
       </div>
     </div>
     <!-- 小图片 -->
-    <div class="big" v-for="p in Photo" :key="p.introduce">
-      <strong class="text-h6 strong">{{ p.introduce }}</strong>
-      <v-container class="grey lighten-5" style="margin: 15px auto 5px">
+    <div class="big">
+      <v-container v-for="v in list" :key="v.title">
+        <h2>{{v.title}}</h2>
         <v-row>
-          <v-col v-for="v in 4" :key="v" cols="3">
-            <v-card class="pa-2" outlined tile>
-              <v-card class="mx-auto" max-width="280">
-                <v-img class="white--text align-end" :src="p.src"> </v-img>
-                <v-card-subtitle class="pb-0"> Number 10 </v-card-subtitle>
-                <v-card-text class="text--primary">
-                  <v-divider class="mx-4"></v-divider>
-                  <div>Whitehaven Beach</div>
-                </v-card-text>
-              </v-card>
-            </v-card>
+          <v-col v-for="(item,i) in v.items" :key="i" cols="3">
+            <sm-picture
+              :name1="item.name1"
+              :name2="item.name2"
+              :src="item.src"
+            ></sm-picture>
           </v-col>
         </v-row>
       </v-container>
-    </div>
+  </div>
+    <!-- 热门标签 -->
     <v-container class="grey lighten-5 big">
       <strong class="text-h6">热门标签</strong>
       <v-row no-gutters style="margin: 15px auto 5px">
@@ -102,10 +98,66 @@
 }
 </style>
 <script>
+import SmPicture from "../components/SmPicture";
+var list = [
+  {
+    title: '标题1',
+    items: [
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      },
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      },
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      },
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      }
+    ]
+  },
+  {
+    title: '标题2',
+    items: [
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      },
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      },
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      },
+      {
+        name1: 'name1',
+        name2: 'name2',
+        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+      }
+    ]
+  }
+];
 export default {
+    components: { SmPicture },
+
   data() {
     return {
-        top: 0,
+      list,
+      top: 0,
       items: [
         {
           src: "https://img.tukuppt.com/ad_preview/00/09/14/5c99116a2ffde.jpg!/fw/780",
