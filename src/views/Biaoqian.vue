@@ -1,10 +1,11 @@
 <template>
   <div>
     <div class="menu">
-      <router-link to="/biaoqian/ticai">题材</router-link>
-      <router-link to="/biaoqian/fengge">风格</router-link>
-      <router-link to="/biaoqian/shebei">设备</router-link>
-      <router-link to="/qwe">地区</router-link>
+      <router-link to="/biaoqian/ticai">此板块以后添加</router-link>
+      <!-- <router-link to="/biaoqian/ticai">题材</router-link> -->
+      <!-- <router-link to="/biaoqian/fengge">风格</router-link> -->
+      <!-- <router-link to="/biaoqian/shebei">设备</router-link> -->
+      <!-- <router-link to="/qwe">地区</router-link> -->
     </div>
     <router-view />
   </div>

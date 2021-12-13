@@ -27,6 +27,14 @@ export default [
                         path: 'chengshi',
                         component: () => import('./views/Chengshi')
                     },
+                    {
+                        path: 'yundong',
+                        component: () => import('./views/Yundong')
+                    },
+                    {
+                        path: 'xizang',
+                        component: () => import('./views/Xizang')
+                    },
                 ]
             },
             {

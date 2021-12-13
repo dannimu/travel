@@ -14,7 +14,7 @@
       </div>
       <!-- 6张小图 -->
       <div style="margin-top: 40px">
-        <h2>热门航拍点</h2>
+        <h2>岁月静好</h2>
         <div class="six">
           <div class="small" v-for="v in citie" :key="v.name">
             <v-img class="img" :src="v.src"></v-img>
@@ -43,7 +43,7 @@
   </div>
     <!-- 热门标签 -->
     <v-container class="grey lighten-5 big">
-      <strong class="text-h6">热门标签</strong>
+      <strong class="text-h6">说走就走</strong>
       <v-row no-gutters style="margin: 15px auto 5px">
         <v-col v-for="n in last" :key="n.name" cols="2">
           <v-card class="mx-auto" outlined tile max-width="180">
@@ -101,52 +101,52 @@
 import SmPicture from "../components/SmPicture";
 var list = [
   {
-    title: '标题1',
+    title: '在路上～',
     items: [
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/IMG20200426170304.jpg'
       },
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/IMG20200430095953.jpg'
       },
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/IMG20200426093754.jpg'
       },
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/IMG20200424142458.jpg'
       }
     ]
   },
   {
-    title: '标题2',
+    title: '面朝大海，春暖花开',
     items: [
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/mmexport33da06c2c5382e6558941ff76f535998_1639381405306.jpeg'
       },
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/mmexport1639381529632.jpg'
       },
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/mmexportd54c173f6af02c65c02fa15669dbd3e2_1639381319712.jpeg'
       },
       {
         name1: 'name1',
         name2: 'name2',
-        src: 'https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350'
+        src: '/images/mmexportf60412bb6a6c9a959148232b958fdfc9_1639381285792.jpeg'
       }
     ]
   }
@@ -160,93 +160,93 @@ export default {
       top: 0,
       items: [
         {
-          src: "https://img.tukuppt.com/ad_preview/00/09/14/5c99116a2ffde.jpg!/fw/780",
+          src: "/images/mmexport0440caa4df76aa9016e5cce5f92c1d8d_1639381359957.jpeg",
         },
         {
-          src: "https://p6-tt.byteimg.com/origin/pgc-image/6098ac8cc5df4267ab97b41dde97a507?from=pc",
+          src: '/images/IMG20200511143919.jpg',
         },
         {
-          src: "https://img.tukuppt.com/bg_grid/00/03/28/4F5o5JJYIt.jpg!/fh/350",
+          src: '/images/mmexport03c5b2aee851615c765ac6568b316629_1639381435458.jpeg',
         },
         {
-          src: "https://img.tukuppt.com/bg_grid/00/24/42/dhaxjvAx0W.jpg!/fh/350",
+          src: '/images/mmexport1588839648396.jpg',
         },
       ],
       // 城市列表
       citie: [
         {
-          name: "美国",
-          src: "https://img.tukuppt.com/bg_grid/00/03/40/oJRZjOBnF7.jpg!/fh/350",
+          name: "马来西亚",
+          src: '/images/mmexportc206dfbabf14b2e48e2ccf55800e1767_1639381346278.jpeg',
         },
         {
-          name: "澳大利亚",
-          src: "https://img.tukuppt.com/bg_grid/00/06/63/5fm2Mvjfwz.jpg!/fh/350",
+          name: "厦门",
+          src: '/images/IMG20191221172637.jpg',
         },
         {
-          name: "冰岛",
-          src: "https://img.tukuppt.com/bg_grid/00/07/13/gGSzfrlawB.jpg!/fh/350",
+          name: "黄山",
+          src: '/images/mmexport1588670783331.jpg',
         },
         {
           name: "西藏",
-          src: "https://img.tukuppt.com/bg_grid/00/09/75/foiWcKgzx6.jpg!/fh/350",
+          src: '/images/IMG20200505092239.jpg',
+        },
+        {
+          name: "杭州",
+          src: '/images/IMG20200106174334.jpg',
         },
         {
           name: "上海",
-          src: "https://img.tukuppt.com/bg_grid/00/17/72/zp574kYgHx.jpg!/fh/350",
-        },
-        {
-          name: "新疆",
-          src: "https://img.tukuppt.com/bg_grid/00/11/53/BMbv2RasOn.jpg!/fh/350",
+          src: '/images/IMG_20200212_220338.jpg',
         },
       ],
       //小图片框
       Photo: [
         {
           introduce: "自然",
-          src: "https://img.tukuppt.com/bg_grid/01/15/74/SWFW3TUWlZ.jpg!/fh/350",
+          src: '/images/IMG20200501200927.jpg',
         },
         {
           introduce: "城市",
-          src: "https://img.tukuppt.com/bg_grid/00/85/18/0QIrgkA1tZ.jpg!/fh/350",
+          src: '/images/IMG20200501104252.jpg',
         },
         {
           introduce: "运动",
-          src: "https://img.tukuppt.com/bg_grid/00/03/83/l3yGLYQN2I.jpg!/fh/350",
+          src: '/images/mmexport1588839636375.jpg',
         },
         {
           introduce: "人物",
-          src: "https://img.tukuppt.com/bg_grid/00/05/12/P9THwGEEQQ.jpg!/fh/350",
+          src: '/images/mmexport1587989807568.jpg',
         },
         {
           introduce: "签约摄影师",
-          src: "https://img.tukuppt.com/bg_grid/00/23/65/Sd0MUmMfX2.jpg!/fh/350",
+          src: '/images/IMG20200424153025.jpg',
         },
       ],
       //最后6个图片
       last: [
         {
-          name: "12323",
-          src: "https://img.tukuppt.com/bg_grid/00/03/75/EPDdekchPx.jpg!/fh/350",
+          name: "～",
+          src: '/images/mmexport1587989273890.jpg',
         },
         {
-          name: "2355",
-          src: "https://img.tukuppt.com/bg_grid/00/10/10/goqQlrldHA.jpg!/fh/350",
+          name: "～",
+          src: '/images/mmexport1588344369472.jpg',
         },
         {
-          name: "1239",
-          src: "https://img.tukuppt.com/bg_grid/00/10/14/z3DFPJ6tkg.jpg!/fh/350",
+          name: "～",
+          src: '/images/mmexport1587989357292.jpg',
         },
         {
-          name: "47",
-          src: "https://img.tukuppt.com/bg_grid/01/16/19/PsiojVxcp6.jpg!/fh/350",
+          name: "～",
+          src: '/images/IMG20200427104430.jpg',
         },
         {
-          name: "1234",
-          src: "https://img.tukuppt.com/bg_grid/00/18/30/DfGNfsaCNf.jpg!/fh/350",
+          name: "～",
+          src: '/images/IMG20200427100126.jpg',
         },
         {
-          name: "hdjj",
-          src: "https://img.tukuppt.com/bg_grid/00/10/99/ZLQKtK4zmS.jpg!/fh/350",
+          name: "～",
+          src: '/images/IMG20200422134736.jpg',
         },
       ],
     };

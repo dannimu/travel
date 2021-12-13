@@ -1,12 +1,11 @@
 <template>
   <div>
     <div class="menu">
-      <router-link to="/tansuo/quanbu">全部</router-link>
-      <router-link to="/tansuo/ziran">自然</router-link>
-      <router-link to="/tansuo/chengshi">城市</router-link>
-      <router-link to="/qwe">运动</router-link>
-      <router-link to="/asdf">人物</router-link>
-      <router-link to="/asdf">签约摄影师</router-link>
+      <router-link to="/tansuo/quanbu">厦门</router-link>
+      <router-link to="/tansuo/ziran">婺源</router-link>
+      <router-link to="/tansuo/chengshi">黄山</router-link>
+      <router-link to="/tansuo/yundong">绍兴~~~</router-link>
+      <router-link to="/tansuo/xizang">西藏</router-link>
     </div>
     <router-view />
   </div>

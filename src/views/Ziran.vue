@@ -1,21 +1,49 @@
 <template>
   <div class="big">
-    <div class="line">1 自然
-        <img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" alt="">
+    <div class="line">
+      <img src="/images/mmexport1639392420367.jpg" alt="" />
+      <img src="/images/IMG_20191226_175630.jpg" alt="" />
+      <img src="/images/IMG_20191226_175645.jpg" alt="" />
+      <img src="/images/IMG_20191226_175709.jpg" alt="" />
+      <img src="/images/IMG_20191226_195013.jpg" alt="" />
+      <img src="/images/IMG_20191226_195138.jpg" alt="" />
+      <img src="/images/IMG_20191226_195151.jpg" alt="" />
+      <img src="/images/IMG_20191226_195203.jpg" alt="" />
+      <img src="/images/IMG_20191226_195217.jpg" alt="" />
     </div>
 
-    <div class="line">2
-        <img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" alt="">
-        <img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" alt="">
-        <img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" alt="">
-        <img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" alt="">
-
+    <div class="line">
+      <img src="/images/IMG_20191226_195241.jpg" alt="" />
+      <img src="/images/IMG_20191226_195256.jpg" alt="" />
+      <img src="/images/IMG_20191226_195311.jpg" alt="" />
+      <img src="/images/IMG_20191226_195324.jpg" alt="" />
+      <img src="/images/IMG_20191226_195337.jpg" alt="" />
+      <img src="/images/IMG_20191226_195354.jpg" alt="" />
+      <img src="/images/IMG_20191226_195432.jpg" alt="" />
+      <img src="/images/IMG_20191226_195450.jpg" alt="" />
     </div>
-    <div class="line">3
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3HClsLOL03d-wzkweGYjNiMhHXPqpVUsJqg&usqp=CAU" alt="">
+    <div class="line">
+      <img src="/images/IMG_20191226_200727.jpg" alt="" />
+      <img src="/images/IMG_20191226_200738.jpg" alt="" />
+      <img src="/images/IMG_20191226_175612.jpg" alt="" />
+      <img src="/images/IMG_20191226_195510.jpg" alt="" />
+      <img src="/images/IMG_20191226_195123.jpg" alt="" />
+      <img src="/images/IMG_20191226_195049.jpg" alt="" />
+      <img src="/images/IMG_20191226_195103.jpg" alt="" />
+      <img src="/images/mmexport1639392422881.jpg" alt="" />
+      <img src="/images/IMG_20191224_195001.jpg" alt="" />
     </div>
-    <div class="line">4
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFUK68DUb7hzE3a8taduvUk2LepTtbVx-TmQ&usqp=CAU" alt="">
+    <div class="line">
+      <img src="/images/IMG_20191224_195108.jpg" alt="" />
+      <img src="/images/IMG_20191226_175517.jpg" alt="" />
+      <img src="/images/IMG_20191226_175528.jpg" alt="" />
+      <img src="/images/IMG_20191226_175542.jpg" alt="" />
+      <img src="/images/IMG_20191226_175555.jpg" alt="" />
+      <img src="/images/IMG_20191226_175458.jpg" alt="" />
+      <img src="/images/IMG_20191226_200710.jpg" alt="" />
+      <img src="/images/IMG_20191226_195230.jpg" alt="" />
+      <img src="/images/IMG_20191226_195523.jpg" alt="" />
+      
     </div>
   </div>
 </template>
@@ -33,7 +61,7 @@
   width: 25%;
   padding: 5px;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 </style>
